@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { HashLink as Link } from 'react-router-hash-link'
 function Nav(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <div className='navbar'>
                 <Link to="#home" className='nav-link'>Home</Link>
                 <Link to="#news"className='nav-link'>News</Link>
