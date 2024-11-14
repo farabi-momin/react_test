@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  margin: 0px;
+}
+.show{
+  display:block;
+}
+.hide {
+  display: none;
+}
+.slick-slide div{
+  margin:0px 40px;
+}
+.hideshowtabNav{
+  font-family: "Roboto";
+}
+.hideshowtabNav button{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;;
+  cursor: pointer;
+  float: left;
+}
+.hideshowtabNav button.activeBtn{
+  background-color: red;
+  color: white;
+}
+.hideshowtabContent h1{
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 12px;
+}
+.hideshowtabContent p{
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.hideshowtabContent img{
+  width: 20.48px;
+  height: 20.53px;
+}
+.navbar {
+  width: 1025px;
+  padding: 15px;
+  font-family: "Roboto";
+  margin-left: 0px;
+}
+
+.navbar .nav-link {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.navbar .nav-link:hover {
+  color: black;
+}
+ 
+.button{
+  background-color:rgba(254, 191, 0, 1);
+  width: Hug (157px)px;
+  height: Hug (44px)px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  opacity: 0px;
+  border: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.button:hover{
+  background-color: rgb(211, 191, 1)
+}
+.slide{
+
+}
+.slide img.coursel-btn{
+  height: 50px;
+  width: 50px;
+}
+.frame1{
+  width: 1349px;
+  height: 700px;
+  background-image: linear-gradient(to right, rgba(189, 31, 23, 0.9), rgba(165, 29, 19, 0.9), rgba(142, 27, 15, 0.9)), url("src/assets/backgroud-1.png");
+  background-repeat: repeat;
+}
+.frame1 header{
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display:block;
+  background-image: linear-gradient(to top, rgba(189, 31, 23, 0), rgba(165, 29, 19, 0.2), rgba(142, 27, 15, 0.3));
+  z-index: 1100;
+  padding: 10px 100px 10px 100px;
+}
+.frame1 header img{
+  height: 60%;
+  width: auto;
+  float: left;
+}
+.frame1 header h3{
+  display: inline;
+  font-family: "Poppins";
+  float: left;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: aliceblue;
+  margin: 10px;
+}
+.frame1 .container{
+  padding: 120px;
+  gap: 8px;
+  opacity: 0px;
+  color: #f2f2f2;
+}
+.frame1 .container img.f1img{
+  width: 50%;
+  height: auto;
+  gap: 0px;
+  opacity: 0px;
+  float: right;
+  margin-top: 0px;
+}
+.frame1 .container .text-area{
+  position: absolute;
+}
+.frame1 .container .text-area h1.c1-h1{
+  font-family: "Bebas Neue";
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: 400;
+  text-align:left;
+  width: 60%;
+  gap: 0px;
+  padding: 5px;
+  margin-bottom: 0;
+  background-image:linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%);
+}
+.frame1 .container .text-area p{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  width: 35%;
+  margin-top: 0px;
+}
+.frame1 .container img.offer{
+  width: 10%;
+  height: auto;
+  padding: 6.79px 6.79px 7.55px 7.55px;
+  gap: 6.04px;
+  border-radius: 75.47px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 520px;
+  right: 50px;
+}
+.frame2{
+  font-family: "Roboto";
+  width: 1349px;
+}
+.frame2 img.poster{
+  position: absolute;
+  top: 900px;
+  left: 1170px;
+}
+.frame2 .container{
+  padding: 120px;
+  display: grid;
+}
+.frame2 .container img.mktPlace{
+  position: absolute;
+  height:7% ;
+  width: auto;
+  margin-top: 20px;
+}
+.frame2 .container img{
+  width: 47%;
+  height: auto;
+}
+.frame2 .container .contentTab{
+  position: absolute;
+  left: 680px;
+  width: 517px;
+  height: 360px;
+}
+.frame2 footer{
+
+}
+.frame2 footer .card{
+  width: 27%;
+  float: left;
+  margin-top: 50px;
+  padding: 0px 60px 0px 0px;
+}
+.frame2 footer .card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.frame2 footer .card img{
+  width: 35%;
+  height: auto;
+  float: left;
+}
+.frame2 footer .card h3{
+  font-family: "Bebas Neue";
+  font-size: 30px;
+  font-weight: 590;
+  line-height: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;  
+}
+.frame2 footer .card p{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.frame3{
+  width: 1349px;
+}
+.frame3 .container{
+  padding: 60px 130px;
+  background: #FBF7F2;
+}
+.frame3 .container img.f3poster{
+  position: absolute; 
+  top: 1600px; 
+  left: 0px; 
+  height:250px;
+}
+.frame3 .container header{
+  float: left;
+}
+.frame3 .container header p{
+  float: left;
+  font-family: "Roboto";
+  color: rgb(194, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.frame3 .container header h1{
+  font-family: "Bebas Neue";
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.frame3 .container .content{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.frame3 .container .content .sliderBtn-p{
+  transform: scaleX(-1); 
+  margin-top: -137px;
+  margin-right: 50px;
+  right: 100px;
+  height: 50px; 
+  width: 50px;
+  float: right;
+}
+.frame3 .container .content .sliderBtn-n{
+  margin-top: -400px;
+  right: 0px;
+  height: 50px; 
+  width: 50px;
+  float: right;
+}
+.frame3 .container .content .sliderCard{
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  margin: 0px;
+}
+.frame3 .container .content .sliderCard img{
+  width: 200px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.frame3 .container .content .sliderCard h1{
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  display: inline;
+}
+.frame4{
+  width: 1349px;
+  background-image: url("assets/frame4.png");
+  background-size:cover;
+}
+.frame4 .container{
+  padding:50px 120px;
+  text-align: justify;
+}
+.frame4 .container h3{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #c20000;
+}
+.frame4 .container p{
+  font-family: "Roboto";
+  color: white;
+  font-size: 16px;
+  width: 500px;
+  text-align: left;
+}
+.frame4 .container h1{
+  font-family: "Bebas Neue";
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 62px;
+  color: white;
+  margin: 0px;
+}
+.frame4 .container .form-div{
+}
+.frame4 .container .form-div input{
+  padding: 15px;
+  width: 340px;
+  margin: 0px 20px 20px 0%;
+  font-family: "Roboto";
+  font-size: 18px;
+  background: transparent;
+  border-color: white;
+  color:rgb(114, 114, 114);
+}
+.frame4 .container .form-div textarea{
+  padding: 15px;
+  font-size: 18px;
+  width: 734px;
+  height: 150px;
+  margin: 0px 20px 20px 0px;
+  font-family: "Roboto";
+  background: transparent;
+  border-color: white;
+  color:rgb(114, 114, 114);
+}
+.frame5{
+  width: 1349px;
+  text-align: left;
+}
+.frame5 .container{
+  padding: 50px 120px 50px 120px;
+  margin-left: 0px;
+}
+.frame5 .fimage{
+  position: absolute;
+  top: 2750px;
+  max-width: 8%;
+  height: auto;
+}
+.frame5 .container h3{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #c20000;
+}
+.frame5 .container h1{
+  font-family: "Bebas Neue";
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.frame5 .container .content{
+  padding: 0px;
+  text-align: left;
+  z-index: 1100;
+}
+.frame5 .container .content .sliderBtnN{
+  position: absolute;
+  top: -80px;
+  left: 1080px; 
+  height: 50px; 
+  width: 50px;
+}
+.frame5 .container .content .sliderBtnP{
+  transform: scaleX(-1); 
+  position: absolute;
+  top: -80px; 
+  left: 1035px; 
+  height: 50px; 
+  width: 50px;
+}
+.frame5 .container .content .review-card{
+  margin-left: 0px;
+  text-align: left;
+  height: 360px;
+  z-index: 1100;
+}
+.frame5 .container .content .review-card .review-text{
+  background-color: rgba(254, 191, 0, 1);
+  margin-left: -40px;
+  margin-top: -16px;
+  padding: 85px;
+  width: 300px;
+  height: 205px;
+}
+.frame5 .container .content .review-card .review-text .review{
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.frame5 .container .content .review-card .review-text .review::before{
+  content: '\0022';
+  font-size: 28px;
+}
+.frame5 .container .content .review-card .review-text .customer-pic{
+  position: relative;
+  top:58px;
+  float: right;
+  display: inline;
+}
+.frame5 .container .content .review-card .review-text .customer-name{
+  font-family: "Bebas Neue";
+  position: relative;
+  top:60px ;
+  display: inline;
+}
+.frame5 .container .content .review-card .review-text .customer-loc{
+  position: relative;
+  top: 50px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 26px;
+}
+.frame5 .container .content .review-card .review-text hr{
+  position: relative;
+  top: 50px;
+  border-color: black;
+}
+.frame5 .container .content .review-card .review-vedio{
+  position: absolute;
+  top: 0px;
+  margin-left: 350px;
+  width: 11.5%;
+  height: 99.7%;
+}
+
+.frame6{
+  width: 1349px;
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("assets/background5.jpg");
+  background-size:cover;
+}
+.frame6 .container{
+  padding:80px 120px;
+}
+.frame6 .container h1{
+  font-family: "Bebas Neue";
+  font-size: 62px;
+  font-weight: 500;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+}
+.frame6 .container .card{
+  height: 30px;
+  width: 30px;
+  margin-left: 40px;
+  float: left;
+  color: white;
+  width: 150px;
+  height: 150px;
+}
+.frame6 .container .card h3{
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.frame6 .container .card p{
+  font-family: "Roboto";
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 10px;
+  text-align: center;
+}
+.frame6 .container .social-links a{
+  margin-left: 50px;
+}
+.frame6 .container .social-links p{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: white;
+  text-align: center;
+}
+span{
+  font-family: "Roboto";
+  color: #c20000;
+  width: 50px;
+  margin: 0px 10px 0px 0px;
+}
+
+@media screen and (max-width:600px){
+  body{
+    margin: 0%;
+    padding: 0%;
+  }
+  .navbar{
+    display: none;
+  }
+  .hideshowtabContent h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .hideshowtabContent p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .hideshowtabContent img{
+    width: 20.48px;
+    height: 20.53px;
+  }
+  .frame1{
+    width: 86.5%;
+    padding: 0px;
+  }
+  .frame1 header{
+    width: 82%;
+    padding: 10px;
+  }
+  .frame1 header img{
+    margin: 0px;
+    padding: 0px;
+  }
+  .frame1 header h3{
+    display: inline;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .frame1 .container{
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+  }
+  .frame1 .container .text-area{
+    margin-top:20px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .frame1 .container img.f1img{
+    float: left;
+    width: 94%;
+    margin-top: 310px;
+  }
+  .frame1 .container .text-area h1.c1-h1{
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0px;
+    background: transparent;
+  }
+  .frame1 .container .text-area p{
+    font-size: 18px;
+    width: 100%;
+  }
+  .frame1 .container img.offer{
+    position: absolute;
+    left: 0px;
+    top: 520px;
+    width: 20%;
+  }
+  .frame2{
+    width: 86.5%;
+  }
+  .frame2 img.poster{
+    display: none;
+  }
+  .frame2 .container{
+    padding: 10px;
+    
+  }
+  .frame2 .container img.mktPlace{
+    width: 35%;
+    height: auto;
+  }
+  .frame2 .container img{
+    width:100% ;
+    height: auto;
+  }
+  .frame2 .container .contentTab{
+    position: relative;
+    left: 0px;
+    top: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .frame2 footer .card{
+    width: 80%;
+  }
+  .frame2 footer .card h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;  
+  }
+  .frame2 footer .card p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+  }
+  .frame3{
+    width: 86.5%;
+  }
+  .frame3 .container{
+    padding:10px 10px 50px 10px;
+  }
+  
+.frame3 .container img.f3poster{
+  display: none;
+}
+  .frame3 .container header{
+    
+  }
+  .frame3 .container header p{
+    font-weight: 500;
+  }
+  .frame3 .container header h1{
+    font-weight: 400;
+    
+  }
+  .frame3 .container .content{ 
+    margin-left:0px;
+    margin-right: 0px;
+  }
+  .frame3 .container .content .sliderCard{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-left: -20px;
+  }
+  .frame3 .container .content .sliderCard img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .frame3 .container .content .sliderBtn-p{
+    transform: scaleX(-1);
+    position: absolute;
+    top: 372px;
+    left: 30%;
+  }
+  .frame3 .container .content .sliderBtn-n{
+    position: absolute;
+    margin-top: 0px;
+    right: 40%;
+  }
+  .frame4{
+    width: 86.5%;
+  }
+  .frame4 .container{
+    padding:10px;
+  }
+  .frame4 .container h3{
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #c20000;
+    text-align: left;
+  }
+  .frame4 .container p{
+    font-family: "Roboto";
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    width: 100%;
+    text-align: left;
+  }
+  .frame4 .container h1{
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 50px;
+    color: white;
+    margin: 0px;
+  }
+  .frame4 .container .form-div{
+    padding: 10px;
+  }
+  .frame4 .container .form-div input{
+    width: 90%;
+    padding: 15px;
+    margin: 0px 20px 20px 0px;
+    font-size: 16px;
+  }
+  .frame4 .container .form-div textarea{
+    width: 90%;
+    height: 150px;
+    margin: 0px 20px 20px 0px;
+  }
+  .frame5{
+    width: 86.6%;
+    text-align: left;
+  }
+  .frame5 .container{
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .frame5 .fimage{
+    display: none;
+  }
+  .frame5 .container h1{
+    font-family: "Bebas Neue";
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 0px;
+  }
+  .frame5 .container .content{
+    padding: 0px;
+    text-align: left;
+    height: 550px;
+  }
+  .frame5 .container .content .sliderBtnN{
+    position: absolute;
+    top: 500px;
+    left: 145px; 
+    height: 50px; 
+    width: 50px;
+  }
+  .frame5 .container .content .sliderBtnP{
+    transform: scaleX(-1); 
+    position: absolute;
+    top: 500px; 
+    left: 95px; 
+    height: 50px; 
+    width: 50px;
+  }
+  .frame5 .container .content .review-card{
+    margin-left: 0px;
+    margin-top: -16px;
+    text-align: left;
+    height: 500px;
+  }
+  .frame5 .container .content .review-card .review-text{
+    background-color: rgba(254, 191, 0, 1);
+    margin-left: -40px;
+    margin-top: -16px;
+    padding: 0px;
+    width: 320px;
+    height: auto;
+    position: relative;
+    left: 319px;
+    top: 215px;
+  }
+  .frame5 .container .content .review-card .review-text .review{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 30px;
+  }
+  .frame5 .container .content .review-card .review-text .review::before{
+    content: '\0022';
+    font-size: 28px;
+  }
+  .frame5 .container .content .review-card .review-text .customer-pic{
+    position: relative;
+    top:0px;
+    left: 0px;
+    float: right;
+    display: inline-flex;
+    padding: 30px;
+  }
+  .frame5 .container .content .review-card .review-text .customer-name{
+    font-family: "Bebas Neue";
+    position: relative;
+    top:40px ;
+    display: inline;
+    padding:30px ;
+  }
+  .frame5 .container .content .review-card .review-text .customer-loc{
+    position: relative;
+    top: 0px;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 26px;
+    padding: 30px;
+  }
+  .frame5 .container .content .review-card .review-text hr{
+    display: none;
+  }
+  .frame5 .container .content .review-card .review-vedio{
+    position: absolute;
+    top: 0px;
+    margin-left: -121px;
+    width: 20%;
+    height: 40%;  
+  }
+  .frame5 .container .content .review-card .review-vedio .react-player{
+  }
+  .frame6{
+    width: 86.5%;
+    background-size:cover;
+    background-position: 48% 0%;
+  }
+  .frame6 .container{
+    padding:10px;
+  }
+  .frame6 .container h1{
+    text-align: center;
+  }
+  .frame6 .container .card{
+    margin-left: 40px;
+    float: left;
+    width: 150px;
+    height: 150px;
+  }
+  .frame6 .container .card h3{
+    
+  }
+  .frame6 .container .card p{
+    text-align: center;
+  }
+  .frame6 .container .social-links a{
+    margin-left: 15px;
+  }
+  .frame6 .container .social-links p{
+    text-align: center;
+  }
+  span{
+    width: 50px;
+    margin: 0px 10px 0px 0px;
+  }
+  
+}
+
