@@ -853,7 +853,7 @@ span{
   .frame6 .container .card{
     height: 30px;
     width: 30px;
-    margin-left: 40px;
+    margin-left: 25%;
     float: left;
     color: white;
     width: 150px;
@@ -874,9 +874,10 @@ span{
   }
   .frame6 .container .social-links{
     margin-top: 300px;
+    margin-left: 10px;
   }
   .frame6 .container .social-links a{
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 200px;
   }
   .frame6 .container .social-links a img{
