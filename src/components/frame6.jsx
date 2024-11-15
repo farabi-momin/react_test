@@ -37,7 +37,7 @@ function Frame6(){
                     <h3>OUR ADDRESS</h3>
                     <p>123 Street, New York,</p>
                     <p>United States of America</p>
-                </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                </div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 <div className="social-links">
                     <a href="#"><img src={fb}/></a>
                     <a href="#"><img src={insta}/></a>

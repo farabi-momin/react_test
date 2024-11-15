@@ -836,34 +836,64 @@ span{
   }
   .frame6{
     width: 100%;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("assets/background5.jpg");
     background-size:cover;
-    background-position: 48% 0%;
   }
   .frame6 .container{
     padding:10px;
   }
   .frame6 .container h1{
+    font-family: "Bebas Neue";
+    font-size: 52px;
+    font-weight:400;
+    line-height: 52px;
     text-align: center;
+    color: white;
   }
   .frame6 .container .card{
+    height: 30px;
+    width: 30px;
     margin-left: 40px;
     float: left;
+    color: white;
     width: 150px;
     height: 150px;
   }
   .frame6 .container .card h3{
-    
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
   }
   .frame6 .container .card p{
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 10px;
     text-align: center;
   }
+  .frame6 .container .social-links{
+    margin-top: 300px;
+  }
   .frame6 .container .social-links a{
-    margin-left: 15px;
+    margin-left: 20px;
+    margin-top: 200px;
+  }
+  .frame6 .container .social-links a img{
+    width: 10%;
   }
   .frame6 .container .social-links p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: white;
     text-align: center;
   }
   span{
+    font-family: "Roboto";
+    color: #c20000;
     width: 50px;
     margin: 0px 10px 0px 0px;
   }
