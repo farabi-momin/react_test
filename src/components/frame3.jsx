@@ -25,7 +25,7 @@ function Frame3(){
       };
     
         return(
-            <div className="frame3">
+            <div className="frame3" id="menu">
                 <div className="container">
                     <img className="f3poster" src={fpic}/>
                     <header>

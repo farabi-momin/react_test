@@ -19,7 +19,7 @@ class Frame1 extends Component{
                     <div className="text-area">
                         <h1 className="c1-h1">TASTE THE AUTHENTIC SAUDI CUISINE</h1>
                         <p>Among the best Saudi chefs in the world, serving you something beyond flavor.</p>
-                        <div className="button" style={{float:"left", marginTop:"0px"}}>EXPLORE MENU</div>
+                        <button className="button" style={{float:"left", marginTop:"0px"}}><a href="#menu">EXPLORE MENU</a></button>
                     </div>
                     <img className="offer" src={offer}/>
                 </div>

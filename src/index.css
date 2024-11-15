@@ -71,6 +71,13 @@ body{
 .navbar .nav-link:hover {
   color: black;
 }
+.res-navbar{
+  display: none;
+}
+.res-navbar .res-navbar-icon{
+}
+.res-navbar .res-nav-link{
+}
  
 .button{
   background-color:rgba(254, 191, 0, 1);
@@ -97,6 +104,10 @@ body{
 .slide img.coursel-btn{
   height: 50px;
   width: 50px;
+}
+button a{
+  text-decoration: none;
+  color: black;
 }
 .frame1{
   width: 1349px;
@@ -193,8 +204,8 @@ body{
 }
 .frame2 .container img.mktPlace{
   position: absolute;
-  height:7% ;
-  width: auto;
+  width: 15%;
+  height:auto ; 
   margin-top: 20px;
 }
 .frame2 .container img{
@@ -533,8 +544,64 @@ span{
     margin: 0%;
     padding: 0%;
   }
+  .show{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
   .navbar{
     display: none;
+  }
+  .res-navbar{
+    display: block;
+    position: absolute;
+    width: 10%;
+    height: auto;
+    margin: -10px;
+  }
+  .res-navbar .res-navbar-icon{
+    background-color: rgba(142, 27, 15, 0.5);
+    position: absolute;
+    top: 8px;
+    left: 330px;
+    width: 50px;
+    height: auto;
+    border: none;
+  }
+  .res-navbar a.res-nav-link{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    background-color: #c20000;
+    top: 0px;
+    left: 0px;
+    width:390px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .res-navbar button.res-nav-link{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-decoration:none;
+    position: relative;
+    text-align: center;
+    background-color: #b30000;
+    border: none;
+    top: 0px;
+    left: 0px;
+    width:390px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    color: white;
+  }
+  .res-navbar .res-nav-link:hover{
+    background-color: black;
   }
   .hideshowtabContent h1{
     font-size: 40px;
@@ -555,7 +622,7 @@ span{
     padding: 0px;
   }
   .frame1 header{
-    width: 98%;
+    width: 90%;
     padding: 10px;
   }
   .frame1 header img{
