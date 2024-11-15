@@ -1,17 +1,13 @@
 import '../index.css'
-import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link'
 function Nav(){
     return(
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
             <div className='navbar'>
-                <Link to="#home" className='nav-link'>Home</Link>
-                <Link to="#news"className='nav-link'>News</Link>
-                <Link to="#con" className='nav-link'>Contact</Link>
-                <Link to="#about" className='nav-link'>About</Link>
-                <Link to="bookTable" className='button nav-link' style={{float:"right", color:"black"}}>Book a Table</Link>
+                <a href="#home" className='nav-link'>Home</a>
+                <a href="#news"className='nav-link'>News</a>
+                <a href="#con" className='nav-link'>Contact</a>
+                <a href="#about" className='nav-link'>About</a>
+                <a href="bookTable" className='button nav-link' style={{float:"right", color:"black"}}>Book a Table</a>
             </div>
-        </BrowserRouter>
     )
 }
 export default Nav

@@ -1,6 +1,4 @@
 import React, {Component} from "react"
-import { BrowserRouter } from 'react-router-dom'
-import { HashLink as Link } from 'react-router-hash-link'
 import "../index.css"
 import Nav from "./navbar.jsx"
 import logo from '../assets/nav-logo.png'
